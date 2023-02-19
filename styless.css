@@ -30,8 +30,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: hsl(30, 38%, 92%); */
-    background-color: red;
+    background-color: hsl(30, 38%, 92%);
     flex-direction: column;
     gap: 10px;
 }
