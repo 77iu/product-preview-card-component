@@ -9,7 +9,14 @@ a{
 
 /* font-family: 'Fraunces', serif; */
 /* font-family: 'Montserrat', sans-serif; */
-.attribution { font-size: 11px; text-align: center; }
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0; 
+    top: 640px;
+}
 .attribution a { color: hsl(228, 45%, 44%); }
 body{
     max-width: 1440px;
@@ -19,7 +26,7 @@ body{
 .contenedor{
     width: 100%;
     height: 800px;
-   
+   position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
